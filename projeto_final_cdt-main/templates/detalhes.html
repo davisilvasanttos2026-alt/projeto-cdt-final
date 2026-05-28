@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>{{ produto.nome }}</h1>
+
+    <h2>Preço: R$ {{ produto.preco }}</h2>
+
+    <p>{{ produto.descricao }}</p>
+
+    <a href="/">
+        <button>Voltar</button>
+    </a>
+
+</body>
+</html>

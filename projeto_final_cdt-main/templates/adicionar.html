@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Adicionar Produto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Adicionar novo Açaí</h1>
+
+    <form method="POST">
+
+        <input type="text" name="nome" placeholder="Nome do açaí" required>
+
+        <input type="text" name="preco" placeholder="Preço" required>
+
+        <textarea name="descricao" placeholder="Descrição"></textarea>
+
+        <button type="submit">Salvar</button>
+
+    </form>
+
+</body>
+</html>
