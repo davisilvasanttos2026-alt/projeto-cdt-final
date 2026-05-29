@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "nome": "Açaí Tradicional",
+        "preco": "15.00",
+        "descricao": "Açaí com banana "
+    },
+    {
+        "id": 2,
+        "nome": "Açaí com Morango",
+        "preco": "18.00",
+        "descricao": "Açaí com morango "
+    },
+    {
+        "id": 3,
+        "nome": "Açaí com Granola",
+        "preco": "20.00",
+        "descricao": "Açaí com granola e nutella"
+    }
+    
+]
